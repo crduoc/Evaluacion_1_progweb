@@ -14,7 +14,6 @@
 }
 
 nav {
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,6 +61,21 @@ nav {
     transition-duration: 0.2s;
 }
 
+#contenido {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#carouselExampleCaptions{
+    height: 60%; 
+    width: 55%;
+    position: relative;
+    bottom: 150px;
+}
 
 #separador{
     display: flex;
@@ -82,6 +96,19 @@ nav {
     cursor: pointer;
 }
 
+#muestras {
+    height: 65vh; 
+    width: 55%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+#muestras .card {
+    bottom: 50px;
+    padding-bottom: 30px;
+}
 
 #footer{
     height: 30vh; 
@@ -89,7 +116,6 @@ nav {
     background-color: rgb(24, 168, 95);
     text-decoration: none;
     color: #FFFFFF;
-    
 }
 
 #logofooter>p{
@@ -164,70 +190,10 @@ input {
     background-color: transparent;
     border: none
 }
-.buttom{
-    border: none;
-    color: #FFFFFF;
-    font-size: 20px;
-    margin-left: 50px;
-    background: red;
-    
-}
-.a{
-    border: none;
-    font-size: 20px;
-    margin-left: 50px;
-    background: rgb(24, 168, 95);
-    color: black
-    
-}
-.cantidad{
-    margin-left: 144px;
-    
-}
-.card-text{
-    margin-left: 130px;
-}
-.card-title{
-    margin-left: 90px;
-}
-.carro{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.card-titlee{
-    margin-left: 60px;
 
-}
-.card-texte{
-    margin-right: 50px;
-    margin-left: 125px;
-    
-}
-@media(min-width:768px)
-{
-    .encabezado{
-        margin: auto;
-        width: 500px;
-        margin-top: 150px;
-        border-radius: 2%;
-    }
-}
-.boton{
-    border: none;
-    width: 100%;
-    color: white;
-    font-size: 20px;
-    background: rgb(24, 168, 95);
-}
-.detalle{
-    margin-bottom: 10px;
-}
 
-.col-md-8 {
-    margin-right:50px;
-}
 
-.carro {
-    width: 30%;
-    padding-top: 50px;
-}
+
+
+
+

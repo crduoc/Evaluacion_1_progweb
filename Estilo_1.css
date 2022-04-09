@@ -14,7 +14,6 @@
 }
 
 nav {
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +88,6 @@ nav {
     background-color: rgb(24, 168, 95);
     text-decoration: none;
     color: #FFFFFF;
-    
 }
 
 #logofooter>p{
@@ -156,6 +154,7 @@ nav {
     text-decoration: none;
 }
 
+
 input {
     border: 5px solid white;
 }
@@ -164,70 +163,10 @@ input {
     background-color: transparent;
     border: none
 }
-.buttom{
-    border: none;
-    color: #FFFFFF;
-    font-size: 20px;
-    margin-left: 50px;
-    background: red;
-    
+.container{
+    margin-top: 20px;
+    margin-bottom: 18%;
 }
-.a{
-    border: none;
-    font-size: 20px;
-    margin-left: 50px;
-    background: rgb(24, 168, 95);
-    color: black
-    
-}
-.cantidad{
-    margin-left: 144px;
-    
-}
-.card-text{
-    margin-left: 130px;
-}
-.card-title{
-    margin-left: 90px;
-}
-.carro{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.card-titlee{
-    margin-left: 60px;
-
-}
-.card-texte{
-    margin-right: 50px;
-    margin-left: 125px;
-    
-}
-@media(min-width:768px)
-{
-    .encabezado{
-        margin: auto;
-        width: 500px;
-        margin-top: 150px;
-        border-radius: 2%;
-    }
-}
-.boton{
-    border: none;
-    width: 100%;
-    color: white;
-    font-size: 20px;
-    background: rgb(24, 168, 95);
-}
-.detalle{
-    margin-bottom: 10px;
-}
-
-.col-md-8 {
-    margin-right:50px;
-}
-
-.carro {
-    width: 30%;
-    padding-top: 50px;
+.titulo{
+    font-style: italic;
 }
